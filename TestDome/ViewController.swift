@@ -42,5 +42,26 @@ class ViewController: UIViewController {
             print("Other Error")
         }
         print(MaxSum.findMaxSum(numbers: [ 5, 9, 7, 11 ]))
+        
+        print(SpecialActions.matchKeyCombo(sequence: "QEEAZCC"))
+    }
+}
+public class SpecialActions {
+    public static func matchKeyCombo(sequence: String) -> Bool {
+        var sequence = sequence.uppercased()
+        let a = sequence.numberOfOccurrencesOf(string: "QEE")
+        let b = sequence.numberOfOccurrencesOf(string: "ZCC")
+        if a == b {
+            return true
+        }
+        if a == 0 && b == 0 {
+            return true
+        }
+        return false
+    }
+}
+extension String {
+    func numberOfOccurrencesOf(string: String) -> Int {
+        return self.components(separatedBy:string).count - 1
     }
 }
