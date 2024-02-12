@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         let usr = User(name: "John Doe")
         let sub = Subscription(type: "Cellphone", user: usr)
-
+        
         usr.subscriptions.append(sub)
         print(usr)
         
@@ -44,24 +44,36 @@ class ViewController: UIViewController {
         print(MaxSum.findMaxSum(numbers: [ 5, 9, 7, 11 ]))
         
         print(SpecialActions.matchKeyCombo(sequence: "QEEAZCC"))
+        
+        
+        let fireDragon = FireDragon()
+        print(fireDragon)
+        do {
+            let egg = fireDragon.lay()
+            try print(egg.hatch())
+            try print(egg.hatch())
+        } catch {
+            print(error)
+        }
+        
+        let prod = Product(quantity: 1)
+        prod.quantity = 2
+        print(prod.quantity)
     }
 }
-public class SpecialActions {
-    public static func matchKeyCombo(sequence: String) -> Bool {
-        var sequence = sequence.uppercased()
-        let a = sequence.numberOfOccurrencesOf(string: "QEE")
-        let b = sequence.numberOfOccurrencesOf(string: "ZCC")
-        if a == b {
-            return true
+
+public class Product {
+    public var name: String?
+    
+    public var quantity: Int {
+        didSet {
+            if quantity < 1 {
+                quantity = 1
+            }
         }
-        if a == 0 && b == 0 {
-            return true
-        }
-        return false
     }
-}
-extension String {
-    func numberOfOccurrencesOf(string: String) -> Int {
-        return self.components(separatedBy:string).count - 1
+    
+    public init(quantity: Int) {
+        self.quantity = quantity;
     }
 }

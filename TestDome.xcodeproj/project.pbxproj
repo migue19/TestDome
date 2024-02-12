@@ -18,6 +18,8 @@
 		F2D99D832B799A260008F777 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D822B799A260008F777 /* TwoSum.swift */; };
 		F2D99D852B79B7AE0008F777 /* CropRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D842B79B7AE0008F777 /* CropRotation.swift */; };
 		F2D99D872B79C3CD0008F777 /* MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D862B79C3CD0008F777 /* MaxSum.swift */; };
+		F2D99D892B79CEC30008F777 /* SpecialAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D882B79CEC30008F777 /* SpecialAction.swift */; };
+		F2D99D8B2B79D6B90008F777 /* FireDragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D8A2B79D6B90008F777 /* FireDragon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		F2D99D822B799A260008F777 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		F2D99D842B79B7AE0008F777 /* CropRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropRotation.swift; sourceTree = "<group>"; };
 		F2D99D862B79C3CD0008F777 /* MaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSum.swift; sourceTree = "<group>"; };
+		F2D99D882B79CEC30008F777 /* SpecialAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialAction.swift; sourceTree = "<group>"; };
+		F2D99D8A2B79D6B90008F777 /* FireDragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDragon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,8 @@
 				F2D99D7E2B7959990008F777 /* ReadableObject.swift */,
 				F2D99D802B795B010008F777 /* UserSubscription.swift */,
 				F2D99D822B799A260008F777 /* TwoSum.swift */,
+				F2D99D882B79CEC30008F777 /* SpecialAction.swift */,
+				F2D99D8A2B79D6B90008F777 /* FireDragon.swift */,
 				F2D99D842B79B7AE0008F777 /* CropRotation.swift */,
 				F2D99D862B79C3CD0008F777 /* MaxSum.swift */,
 				F2D99D702B7954440008F777 /* Main.storyboard */,
@@ -155,9 +161,11 @@
 			files = (
 				F2D99D852B79B7AE0008F777 /* CropRotation.swift in Sources */,
 				F2D99D6F2B7954440008F777 /* ViewController.swift in Sources */,
+				F2D99D8B2B79D6B90008F777 /* FireDragon.swift in Sources */,
 				F2D99D872B79C3CD0008F777 /* MaxSum.swift in Sources */,
 				F2D99D6B2B7954440008F777 /* AppDelegate.swift in Sources */,
 				F2D99D832B799A260008F777 /* TwoSum.swift in Sources */,
+				F2D99D892B79CEC30008F777 /* SpecialAction.swift in Sources */,
 				F2D99D812B795B010008F777 /* UserSubscription.swift in Sources */,
 				F2D99D7F2B7959990008F777 /* ReadableObject.swift in Sources */,
 				F2D99D6D2B7954440008F777 /* SceneDelegate.swift in Sources */,
