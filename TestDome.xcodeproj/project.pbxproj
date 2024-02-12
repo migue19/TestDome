@@ -13,6 +13,11 @@
 		F2D99D722B7954440008F777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D99D702B7954440008F777 /* Main.storyboard */; };
 		F2D99D742B7954450008F777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D99D732B7954450008F777 /* Assets.xcassets */; };
 		F2D99D772B7954450008F777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D99D752B7954450008F777 /* LaunchScreen.storyboard */; };
+		F2D99D7F2B7959990008F777 /* ReadableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D7E2B7959990008F777 /* ReadableObject.swift */; };
+		F2D99D812B795B010008F777 /* UserSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D802B795B010008F777 /* UserSubscription.swift */; };
+		F2D99D832B799A260008F777 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D822B799A260008F777 /* TwoSum.swift */; };
+		F2D99D852B79B7AE0008F777 /* CropRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D842B79B7AE0008F777 /* CropRotation.swift */; };
+		F2D99D872B79C3CD0008F777 /* MaxSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D99D862B79C3CD0008F777 /* MaxSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		F2D99D732B7954450008F777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2D99D762B7954450008F777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2D99D782B7954450008F777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D99D7E2B7959990008F777 /* ReadableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadableObject.swift; sourceTree = "<group>"; };
+		F2D99D802B795B010008F777 /* UserSubscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSubscription.swift; sourceTree = "<group>"; };
+		F2D99D822B799A260008F777 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		F2D99D842B79B7AE0008F777 /* CropRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropRotation.swift; sourceTree = "<group>"; };
+		F2D99D862B79C3CD0008F777 /* MaxSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				F2D99D6A2B7954440008F777 /* AppDelegate.swift */,
 				F2D99D6C2B7954440008F777 /* SceneDelegate.swift */,
 				F2D99D6E2B7954440008F777 /* ViewController.swift */,
+				F2D99D7E2B7959990008F777 /* ReadableObject.swift */,
+				F2D99D802B795B010008F777 /* UserSubscription.swift */,
+				F2D99D822B799A260008F777 /* TwoSum.swift */,
+				F2D99D842B79B7AE0008F777 /* CropRotation.swift */,
+				F2D99D862B79C3CD0008F777 /* MaxSum.swift */,
 				F2D99D702B7954440008F777 /* Main.storyboard */,
 				F2D99D732B7954450008F777 /* Assets.xcassets */,
 				F2D99D752B7954450008F777 /* LaunchScreen.storyboard */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2D99D852B79B7AE0008F777 /* CropRotation.swift in Sources */,
 				F2D99D6F2B7954440008F777 /* ViewController.swift in Sources */,
+				F2D99D872B79C3CD0008F777 /* MaxSum.swift in Sources */,
 				F2D99D6B2B7954440008F777 /* AppDelegate.swift in Sources */,
+				F2D99D832B799A260008F777 /* TwoSum.swift in Sources */,
+				F2D99D812B795B010008F777 /* UserSubscription.swift in Sources */,
+				F2D99D7F2B7959990008F777 /* ReadableObject.swift in Sources */,
 				F2D99D6D2B7954440008F777 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
